@@ -5,6 +5,8 @@
 - Exercism
   - Lasagna
 
+- Spark
+
 - Micronauts
   - TODO
 

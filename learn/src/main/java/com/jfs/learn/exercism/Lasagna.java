@@ -10,6 +10,9 @@ public class Lasagna {
 	}
 
 	public int remainingMinutesInOven(int minutes) {
+		if (minutes < 0 || (expectedMinutesInOven() - minutes) < 0)
+			return 0;
+
 		return expectedMinutesInOven() - minutes;
 	}
 
