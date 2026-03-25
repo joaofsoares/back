@@ -2,11 +2,8 @@ package com.jfs.learn.exercism;
 
 public class Lasagna {
 
-    private int MINUTES = 40;
-    private int MINUTES_PER_LAYER = 2;
-
     public int expectedMinutesInOven() {
-        return MINUTES;
+        return 40;
     }
 
     public int remainingMinutesInOven(int minutes) {
@@ -17,6 +14,7 @@ public class Lasagna {
     }
 
     public int preparationTimeInMinutes(int layers) {
+        int MINUTES_PER_LAYER = 2;
         return layers * MINUTES_PER_LAYER;
     }
 
